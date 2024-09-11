@@ -11,11 +11,9 @@ import pandas as pd
 pd.set_option('display.max_columns', None)
 import numpy as np
 
-# visualization
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Machine Learning
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
@@ -27,6 +25,5 @@ from sklearn.preprocessing import StandardScaler
 from xgboost import XGBRegressor
 from lightgbm import LGBMRegressor
 
-# suppress warnings
 import warnings
 warnings.filterwarnings('ignore')
